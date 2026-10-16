@@ -1,0 +1,12 @@
+name = "op-auction"
+main = "site/worker/index.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./site/public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "op_auction"
+database_id = "local-dev-op-auction"

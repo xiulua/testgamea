@@ -1,0 +1,13 @@
+{
+  "name": "op-auction",
+  "private": true,
+  "version": "1.0.0",
+  "description": "One Piece character auction game - online multiplayer",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "python3 scripts/build_site_app.py"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.0"
+  }
+}

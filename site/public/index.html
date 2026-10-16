@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#0a1626" />
+<title>ONE PIECE — Auction War Online</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;800&family=Pirata+One&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css?v=6" />
+</head>
+<body>
+<header id="topbar">
+  <div class="brand">ONE PIECE — AUCTION WAR</div>
+  <nav id="mainnav" class="mainnav">
+    <button class="btn tiny ghost" id="navHome" data-nav="home">🏠 หน้าแรก</button>
+    <button class="btn tiny ghost" id="navGame" data-nav="game" hidden>🎮 ห้องของฉัน</button>
+    <button class="btn tiny ghost" id="navCards" data-nav="cards">📚 การ์ด &amp; เมต้า</button>
+    <button class="btn tiny ghost" id="navHelp" data-nav="help">❓ วิธีเล่น</button>
+  </nav>
+  <div id="topMeta" class="topmeta" hidden>
+    <span class="pill">ห้อง <b id="tCode">—</b></span>
+    <span class="pill" id="tRound">—</span>
+    <span class="pill money" id="tMoney">—</span>
+    <span class="pill busy" id="tBusy" hidden>⏳ กำลังส่ง…</span>
+    <button class="btn tiny ghost" id="leaveBtn">ออกจากห้อง</button>
+  </div>
+</header>
+
+<main>
+  <!-- ---------- หน้าแรก ---------- -->
+  <section id="home" class="screen">
+    <div class="hero">
+      <h1>ONE PIECE</h1>
+      <div class="hero-sub">AUCTION WAR · ONLINE</div>
+      <p class="tagline">เกมประมูลตัวละครวันพีช · เล่นกับเพื่อนผ่านรหัสห้อง</p>
+    </div>
+
+    <div class="panel">
+      <label for="nameInput">ชื่อผู้เล่น</label>
+      <input id="nameInput" maxlength="16" placeholder="ชื่อของคุณ" autocomplete="off" />
+
+      <button id="createBtn" class="btn primary big">➕ สร้างห้องใหม่</button>
+
+      <div class="divider"><span>หรือเข้าร่วมด้วยรหัสห้อง</span></div>
+      <div class="herobtns">
+        <button class="btn ghost" data-nav="cards">📚 ดูการ์ดทั้งหมด &amp; เมต้า (74 ใบ)</button>
+        <button class="btn ghost" data-nav="help">❓ วิธีเล่น &amp; ออร่าต่าง ๆ</button>
+      </div>
+
+      <div class="row">
+        <input id="codeInput" maxlength="8" placeholder="รหัสห้อง เช่น K7M2P"
+               class="code" autocomplete="off" spellcheck="false" />
+        <button id="joinBtn" class="btn">เข้าร่วม</button>
+      </div>
+      <p class="hint" id="homeMsg"></p>
+    </div>
+
+    <div class="homeinfo">
+      <div><b>2–8 คน</b><span>เล่นพร้อมกัน</span></div>
+      <div><b>74 ตัวละคร</b><span>พร้อมภาพจริง</span></div>
+      <div><b>ตั้งค่าได้</b><span>เงิน · จำนวนการ์ด</span></div>
+      <div><b>การ์ดตีกัน</b><span>เทิร์นเบส · มีสกิล</span></div>
+    </div>
+    <footer>
+      ตัวละครและภาพ © Eiichiro Oda / Shueisha / Toei Animation · ใช้เล่นส่วนตัวเท่านั้น ·
+      ห้องเป็นแบบสาธารณะ ใครมีรหัสก็เข้าได้
+    </footer>
+  </section>
+
+  <!-- ---------- หน้าดูการ์ดทั้งหมด & เมต้า ---------- -->
+  <section id="cards" class="screen" hidden></section>
+
+  <!-- ---------- หน้าวิธีเล่น ---------- -->
+  <section id="help" class="screen" hidden></section>
+
+  <!-- ---------- หน้าห้อง/เกม ---------- -->
+  <section id="game" class="screen" hidden></section>
+</main>
+
+<div id="fx" class="fxlayer"></div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="app.js?v=7"></script>
+</body>
+</html>

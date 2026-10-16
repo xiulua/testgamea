@@ -1,0 +1,668 @@
+[
+  {
+    "id": "roger",
+    "name": "Gol D. Roger",
+    "wiki": "Gol D. Roger",
+    "group": "ตำนานยุคทอง",
+    "pl": 100,
+    "effect": "\"ราชาโจรสลัด\": เมื่อจบเกม ขโมยพลัง 10 จากผู้เล่นที่พลังสูงสุด",
+    "img": "images/roger.png"
+  },
+  {
+    "id": "whitebeard",
+    "name": "Edward Newgate",
+    "wiki": "Edward Newgate",
+    "group": "สี่จักรพรรดิ",
+    "pl": 99,
+    "effect": "\"Gura Gura no Mi\": สั่นสะเทือน ลดพลังคู่แข่งทุกคน 5",
+    "img": "images/whitebeard.png"
+  },
+  {
+    "id": "kaido",
+    "name": "Kaido",
+    "wiki": "Kaido",
+    "group": "สี่จักรพรรดิ",
+    "pl": 97,
+    "effect": "\"สิ่งมีชีวิตที่แข็งแกร่งที่สุด\": ทนทาน ไม่ถูกลดพลังจากเอฟเฟค",
+    "img": "images/kaido.png"
+  },
+  {
+    "id": "garp",
+    "name": "Monkey D. Garp",
+    "wiki": "Monkey D. Garp",
+    "group": "กองทัพเรือ",
+    "pl": 96,
+    "effect": "\"วีรบุรุษนาวี\": ถือการ์ดกองทัพเรือ >=3 ได้ +6",
+    "img": "images/garp.png"
+  },
+  {
+    "id": "shanks",
+    "name": "Shanks",
+    "wiki": "Shanks",
+    "group": "สี่จักรพรรดิ",
+    "pl": 96,
+    "effect": "\"กองเรือผมแดง\": ถือ Yasopp/Beckman/Lucky Roux เพิ่ม +5 ต่อใบ",
+    "img": "images/shanks.png"
+  },
+  {
+    "id": "luffy",
+    "name": "Monkey D. Luffy",
+    "wiki": "Monkey D. Luffy",
+    "group": "หมวกฟาง",
+    "pl": 95,
+    "effect": "\"Gear 5 อิสรภาพ\": ถือหมวกฟาง >=3 ได้ +15",
+    "img": "images/luffy.png"
+  },
+  {
+    "id": "bigmom",
+    "name": "Charlotte Linlin",
+    "wiki": "Charlotte Linlin",
+    "group": "สี่จักรพรรดิ",
+    "pl": 94,
+    "effect": "\"โซล-โซล\": เก็บวิญญาณ ขโมยพลัง 3 จากคู่แข่งทุกคน",
+    "img": "images/bigmom.png"
+  },
+  {
+    "id": "blackbeard",
+    "name": "Marshall D. Teach",
+    "wiki": "Marshall D. Teach",
+    "group": "สี่จักรพรรดิ",
+    "pl": 94,
+    "effect": "\"Yami Yami no Mi\": เมื่อชนะประมูล เก็บเงิน 10 จากผู้เล่นอื่น",
+    "img": "images/blackbeard.png"
+  },
+  {
+    "id": "sakazuki",
+    "name": "Sakazuki (Akainu)",
+    "wiki": "Sakazuki",
+    "group": "กองทัพเรือ",
+    "pl": 93,
+    "effect": "\"มากุมากุ\": เผาผลาญ ผู้แพ้ประมูลเสียเงินเพิ่ม 5",
+    "img": "images/sakazuki.png"
+  },
+  {
+    "id": "sengoku",
+    "name": "Sengoku",
+    "wiki": "Sengoku",
+    "group": "กองทัพเรือ",
+    "pl": 91,
+    "effect": "\"จอมทัพเรือ\": ถือกองทัพเรือ >=3 ได้ +6",
+    "img": "images/sengoku.png"
+  },
+  {
+    "id": "kuzan",
+    "name": "Kuzan (Aokiji)",
+    "wiki": "Kuzan",
+    "group": "กองทัพเรือ",
+    "pl": 92,
+    "effect": "\"ฮิเอะฮิเอะ\": แช่แข็ง ทำให้เอฟเฟคคู่แข่ง 1 ใบใช้ไม่ได้",
+    "img": "images/kuzan.png"
+  },
+  {
+    "id": "mihawk",
+    "name": "Dracule Mihawk",
+    "wiki": "Dracule Mihawk",
+    "group": "เจ็ดเทพโจรสลัด",
+    "pl": 92,
+    "effect": "\"ดาบดำ\": ดวลตัวที่พลังสูงสุดได้ +8 ถ้าชนะ",
+    "img": "images/mihawk.png"
+  },
+  {
+    "id": "borsalino",
+    "name": "Borsalino (Kizaru)",
+    "wiki": "Borsalino",
+    "group": "กองทัพเรือ",
+    "pl": 91,
+    "effect": "\"ปิกะปิกะ\": ความเร็วแสง เปิดการ์ดก่อนใครตอนประมูล",
+    "img": "images/borsalino.png"
+  },
+  {
+    "id": "oden",
+    "name": "Kozuki Oden",
+    "wiki": "Kozuki Oden",
+    "group": "วาโนะคุนิ",
+    "pl": 92,
+    "effect": "\"ซามูไรในตำนาน\": ถือการ์ดวาโนะ >=3 ได้ +8",
+    "img": "images/oden.png"
+  },
+  {
+    "id": "rayleigh",
+    "name": "Silvers Rayleigh",
+    "wiki": "Silvers Rayleigh",
+    "group": "ตำนานยุคทอง",
+    "pl": 91,
+    "effect": "\"ราชาปีศาจ\": สอนการ์ดหมวกฟาง 1 ใบ +5",
+    "img": "images/rayleigh.png"
+  },
+  {
+    "id": "issho",
+    "name": "Issho (Fujitora)",
+    "wiki": "Issho",
+    "group": "กองทัพเรือ",
+    "pl": 90,
+    "effect": "\"ซุซุซุ\": ดึงอุกกาบาต สุ่มทำคู่แข่งเสียเงิน 5",
+    "img": "images/issho.png"
+  },
+  {
+    "id": "aramaki",
+    "name": "Aramaki (Ryokugyu)",
+    "wiki": "Aramaki",
+    "group": "กองทัพเรือ",
+    "pl": 89,
+    "effect": "\"โมริโมริ\": ดูดพลังจากธรรมชาติ ฟื้นพลัง 5 ต่อรอบ",
+    "img": "images/aramaki.png"
+  },
+  {
+    "id": "zoro",
+    "name": "Roronoa Zoro",
+    "wiki": "Roronoa Zoro",
+    "group": "หมวกฟาง",
+    "pl": 90,
+    "effect": "\"ราชาสามดาบ\": ถือหมวกฟาง >=3 ได้ +10",
+    "img": "images/zoro.png"
+  },
+  {
+    "id": "katakuri",
+    "name": "Charlotte Katakuri",
+    "wiki": "Charlotte Katakuri",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 88,
+    "effect": "\"โมจิโมจิเห็นอนาคต\": ดูการ์ดที่จะเปิดถัดไป 1 ใบ",
+    "img": "images/katakuri.png"
+  },
+  {
+    "id": "yamato",
+    "name": "Yamato",
+    "wiki": "Yamato",
+    "group": "วาโนะคุนิ",
+    "pl": 88,
+    "effect": "\"ผู้สืบทอดโอเดน\": +5 ถ้าถือ Kozuki Oden",
+    "img": "images/yamato.png"
+  },
+  {
+    "id": "sabo",
+    "name": "Sabo",
+    "wiki": "Sabo",
+    "group": "กองทัพปฏิวัติ",
+    "pl": 88,
+    "effect": "\"มังกรไฟ\": เผา ลดพลังคู่แข่งตัวหนึ่ง 6",
+    "img": "images/sabo.png"
+  },
+  {
+    "id": "beckman",
+    "name": "Benn Beckman",
+    "wiki": "Benn Beckman",
+    "group": "กองเรือผมแดง",
+    "pl": 88,
+    "effect": "\"สมองกองเรือผมแดง\": ถือ Shanks ได้ +8",
+    "img": "images/beckman.png"
+  },
+  {
+    "id": "sanji",
+    "name": "Vinsmoke Sanji",
+    "wiki": "Vinsmoke Sanji",
+    "group": "หมวกฟาง",
+    "pl": 87,
+    "effect": "\"Ifrit Jambe\": ถือหมวกฟาง >=3 ได้ +10",
+    "img": "images/sanji.png"
+  },
+  {
+    "id": "marco",
+    "name": "Marco",
+    "wiki": "Marco",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 86,
+    "effect": "\"ฟีนิกซ์\": ฟื้นคืนชีพ กันเอฟเฟคขโมยพลังได้ 1 ครั้ง",
+    "img": "images/marco.png"
+  },
+  {
+    "id": "king",
+    "name": "King",
+    "wiki": "King",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 86,
+    "effect": "\"ลูนาเรีย\": อึด ถือ Kaido ได้ +6",
+    "img": "images/king.png"
+  },
+  {
+    "id": "ace",
+    "name": "Portgas D. Ace",
+    "wiki": "Portgas D. Ace",
+    "group": "หมวกฟาง(พันธมิตร)",
+    "pl": 85,
+    "effect": "\"เมระเมระ\": ไฟลุก +5 ถ้าถือ Luffy หรือ Sabo",
+    "img": "images/ace.png"
+  },
+  {
+    "id": "law",
+    "name": "Trafalgar Law",
+    "wiki": "Trafalgar D. Water Law",
+    "group": "ซูเปอร์โนวา",
+    "pl": 85,
+    "effect": "\"โอเปะโอเปะ\": สลับการ์ดกับคู่แข่งได้ 1 ใบ",
+    "img": "images/law.png"
+  },
+  {
+    "id": "doflamingo",
+    "name": "Donquixote Doflamingo",
+    "wiki": "Donquixote Doflamingo",
+    "group": "เจ็ดเทพโจรสลัด",
+    "pl": 85,
+    "effect": "\"อิโตะอิโตะ\": ควบคุมคู่แข่งบังคับจ่ายเงิน 8",
+    "img": "images/doflamingo.png"
+  },
+  {
+    "id": "hancock",
+    "name": "Boa Hancock",
+    "wiki": "Boa Hancock",
+    "group": "เจ็ดเทพโจรสลัด",
+    "pl": 84,
+    "effect": "\"เมโระเมโระ\": ทำให้ผู้เล่นชาย/คู่แข่ง 1 คนออกจากการประมูล",
+    "img": "images/hancock.png"
+  },
+  {
+    "id": "kuma",
+    "name": "Bartholomew Kuma",
+    "wiki": "Bartholomew Kuma",
+    "group": "เจ็ดเทพโจรสลัด",
+    "pl": 84,
+    "effect": "\"นิคิว\": ผลักการ์ดคู่แข่งออก 1 ใบ (คืนกองกลาง)",
+    "img": "images/kuma.png"
+  },
+  {
+    "id": "jimbei",
+    "name": "Jinbe",
+    "wiki": "Jinbe",
+    "group": "หมวกฟาง",
+    "pl": 83,
+    "effect": "\"อัศวินแห่งท้องทะเล\": ลดความเสียหายจากเอฟเฟคครึ่งหนึ่ง",
+    "img": "images/jimbei.png"
+  },
+  {
+    "id": "kid",
+    "name": "Eustass Kid",
+    "wiki": "Eustass Kid",
+    "group": "ซูเปอร์โนวา",
+    "pl": 83,
+    "effect": "\"จิกิจิกิ\": ประกอบโลหะ +10 ถ้าถือ Killer",
+    "img": "images/kid.png"
+  },
+  {
+    "id": "weevil",
+    "name": "Edward Weevil",
+    "wiki": "Edward Weevil",
+    "group": "เจ็ดเทพโจรสลัด",
+    "pl": 82,
+    "effect": "\"ลูกชายไวท์เบิร์ด\": +10 ถ้าถือ Whitebeard",
+    "img": "images/weevil.png"
+  },
+  {
+    "id": "jozu",
+    "name": "Jozu",
+    "wiki": "Jozu",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 82,
+    "effect": "\"ไดมอนด์\": แข็งเป็นเพชร กันเอฟเฟคดาเมจทั้งหมด 1 ครั้ง",
+    "img": "images/jozu.png"
+  },
+  {
+    "id": "queen",
+    "name": "Queen",
+    "wiki": "Queen",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 82,
+    "effect": "\"ไอซ์ออนิ\": โรคระบาด ทำคู่แข่งติดดีบัฟ -5",
+    "img": "images/queen.png"
+  },
+  {
+    "id": "lucci",
+    "name": "Rob Lucci",
+    "wiki": "Rob Lucci",
+    "group": "CP0",
+    "pl": 81,
+    "effect": "\"โรกุชิกิ\": สังหารเงียบ ขโมยพลัง 6 จากคู่แข่ง 1 คน",
+    "img": "images/lucci.png"
+  },
+  {
+    "id": "smoothie",
+    "name": "Charlotte Smoothie",
+    "wiki": "Charlotte Smoothie",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 80,
+    "effect": "\"ชิบูชิบู\": คั้นน้ำ ดูดพลังคู่แข่ง 4 ให้ตัวเอง",
+    "img": "images/smoothie.png"
+  },
+  {
+    "id": "jack",
+    "name": "Jack",
+    "wiki": "Jack",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 80,
+    "effect": "\"แมมมอธ\": บุกไม่หยุด ไล่ประมูลต่อทันที 1 ใบ",
+    "img": "images/jack.png"
+  },
+  {
+    "id": "crocodile",
+    "name": "Crocodile",
+    "wiki": "Crocodile",
+    "group": "เจ็ดเทพโจรสลัด",
+    "pl": 80,
+    "effect": "\"ซูนะซูนะ\": ทรายดูดน้ำ ลดพลังคู่แข่งที่พลังสูงสุด 8",
+    "img": "images/crocodile.png"
+  },
+  {
+    "id": "vista",
+    "name": "Vista",
+    "wiki": "Vista",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 80,
+    "effect": "\"ดอกกุหลาบแห่งดาบ\": +5 ถ้าถือ Whitebeard",
+    "img": "images/vista.png"
+  },
+  {
+    "id": "ivankov",
+    "name": "Emporio Ivankov",
+    "wiki": "Emporio Ivankov",
+    "group": "กองทัพปฏิวัติ",
+    "pl": 80,
+    "effect": "\"ฮอร์โมน\": เมื่อชนะประมูลครั้งสุดท้าย ฟื้นพลัง 8",
+    "img": "images/ivankov.png"
+  },
+  {
+    "id": "yasopp",
+    "name": "Yasopp",
+    "wiki": "Yasopp",
+    "group": "กองเรือผมแดง",
+    "pl": 80,
+    "effect": "\"มือปืนสังหาร\": +5 ถ้าถือ Shanks",
+    "img": "images/yasopp.png"
+  },
+  {
+    "id": "cracker",
+    "name": "Charlotte Cracker",
+    "wiki": "Charlotte Cracker",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 79,
+    "effect": "\"บิสกิตบิสกิต\": สร้างทหารบิสกิต +6 ถ้าถือ Big Mom",
+    "img": "images/cracker.png"
+  },
+  {
+    "id": "killer",
+    "name": "Killer",
+    "wiki": "Killer",
+    "group": "ซูเปอร์โนวา",
+    "pl": 79,
+    "effect": "\"คามะคามะ\": +8 ถ้าถือ Kid",
+    "img": "images/killer.png"
+  },
+  {
+    "id": "drake",
+    "name": "X Drake",
+    "wiki": "X Drake",
+    "group": "ซูเปอร์โนวา",
+    "pl": 78,
+    "effect": "\"ริวริว\": ไดโนเสาร์ เพิ่มพลัง 4 ต่อการประมูลที่ชนะ",
+    "img": "images/drake.png"
+  },
+  {
+    "id": "vergo",
+    "name": "Vergo",
+    "wiki": "Vergo",
+    "group": "กองทัพเรือ",
+    "pl": 78,
+    "effect": "\"บัมโบ้\": เตะเหล็ก ลดพลังคู่แข่ง 5",
+    "img": "images/vergo.png"
+  },
+  {
+    "id": "nekomamushi",
+    "name": "Nekomamushi",
+    "wiki": "Nekomamushi",
+    "group": "วาโนะคุนิ",
+    "pl": 78,
+    "effect": "\"ทาบูกิ โนะ จิน\": +6 ถ้าถือ Inuarashi",
+    "img": "images/nekomamushi.png"
+  },
+  {
+    "id": "inuarashi",
+    "name": "Inuarashi",
+    "wiki": "Inuarashi",
+    "group": "วาโนะคุนิ",
+    "pl": 78,
+    "effect": "\"ยักษ์วานร\": +6 ถ้าถือ Nekomamushi",
+    "img": "images/inuarashi.png"
+  },
+  {
+    "id": "luckyroux",
+    "name": "Lucky Roux",
+    "wiki": "Lucky Roux",
+    "group": "กองเรือผมแดง",
+    "pl": 78,
+    "effect": "\"ความเร็วสายฟ้า\": +5 ถ้าถือ Shanks",
+    "img": "images/luckyroux.png"
+  },
+  {
+    "id": "hawkins",
+    "name": "Basil Hawkins",
+    "wiki": "Basil Hawkins",
+    "group": "ซูเปอร์โนวา",
+    "pl": 77,
+    "effect": "\"วาระห์\": ดูดวง ทำนาย ป้องกันดาเมจ 1 ครั้ง",
+    "img": "images/hawkins.png"
+  },
+  {
+    "id": "bege",
+    "name": "Capone Bege",
+    "wiki": "Capone Bege",
+    "group": "ซูเปอร์โนวา",
+    "pl": 77,
+    "effect": "\"ชิบุชิบุ\": ปราสาทคนแคระ +1 เอฟเฟคยิงจากในตัว",
+    "img": "images/bege.png"
+  },
+  {
+    "id": "apoo",
+    "name": "Scratchmen Apoo",
+    "wiki": "Scratchmen Apoo",
+    "group": "ซูเปอร์โนวา",
+    "pl": 76,
+    "effect": "\"โอโตะโอโตะ\": ระเบิดเสียง ทำคู่แข่งทุกคนเสียเงิน 4",
+    "img": "images/apoo.png"
+  },
+  {
+    "id": "urouge",
+    "name": "Urouge",
+    "wiki": "Urouge",
+    "group": "ซูเปอร์โนวา",
+    "pl": 76,
+    "effect": "\"คามะบากะ\": ยิ่งเจ็บยิ่งแกร่ง +3 ต่อใบที่แพ้ประมูล",
+    "img": "images/urouge.png"
+  },
+  {
+    "id": "smoker",
+    "name": "Smoker",
+    "wiki": "Smoker",
+    "group": "กองทัพเรือ",
+    "pl": 76,
+    "effect": "\"โมโม่\": ควันจับกุม ทำให้คู่แข่งข้ามรอบถัดไป",
+    "img": "images/smoker.png"
+  },
+  {
+    "id": "denjiro",
+    "name": "Denjiro",
+    "wiki": "Denjiro",
+    "group": "วาโนะคุนิ",
+    "pl": 76,
+    "effect": "\"ซามูไรปลอมตัว\": ขโมยข้อมูล ดูเงินคู่แข่งทุกคน",
+    "img": "images/denjiro.png"
+  },
+  {
+    "id": "perospero",
+    "name": "Perospero",
+    "wiki": "Perospero",
+    "group": "ผู้บัญชาการจักรพรรดิ",
+    "pl": 76,
+    "effect": "\"เพโรเพโร\": ลูกกวาดเหนียว +6 ถ้าถือ Big Mom",
+    "img": "images/perospero.png"
+  },
+  {
+    "id": "bonney",
+    "name": "Jewelry Bonney",
+    "wiki": "Jewelry Bonney",
+    "group": "ซูเปอร์โนวา",
+    "pl": 74,
+    "effect": "\"โทชิโทชิ\": เปลี่ยนวัย ย้อนคืนเงินค่าประมูล 10",
+    "img": "images/bonney.png"
+  },
+  {
+    "id": "kaku",
+    "name": "Kaku",
+    "wiki": "Kaku",
+    "group": "CP0",
+    "pl": 74,
+    "effect": "\"คิริน\": ยีราฟขยายตัว +5 ถ้าถือ Rob Lucci",
+    "img": "images/kaku.png"
+  },
+  {
+    "id": "moria",
+    "name": "Gecko Moria",
+    "wiki": "Gecko Moria",
+    "group": "เจ็ดเทพโจรสลัด",
+    "pl": 74,
+    "effect": "\"คาเงะคาเงะ\": ขโมยเงา ทำคู่แข่ง 1 คนพลัง -10",
+    "img": "images/moria.png"
+  },
+  {
+    "id": "kikunojo",
+    "name": "Kikunojo",
+    "wiki": "Kikunojo",
+    "group": "วาโนะคุนิ",
+    "pl": 72,
+    "effect": "\"ดอกไม้หิมะ\": +4 ถ้าถือ Kozuki Oden",
+    "img": "images/kikunojo.png"
+  },
+  {
+    "id": "reiju",
+    "name": "Vinsmoke Reiju",
+    "wiki": "Vinsmoke Reiju",
+    "group": "Germa 66",
+    "pl": 72,
+    "effect": "\"พิษ\": ดูดพลังคู่แข่ง 4 ให้ตัวเอง",
+    "img": "images/reiju.png"
+  },
+  {
+    "id": "ichiji",
+    "name": "Vinsmoke Ichiji",
+    "wiki": "Vinsmoke Ichiji",
+    "group": "Germa 66",
+    "pl": 72,
+    "effect": "\"สปาร์คกิ้งเรด\": +6 ถ้าถือ Sanji",
+    "img": "images/ichiji.png"
+  },
+  {
+    "id": "niji",
+    "name": "Vinsmoke Niji",
+    "wiki": "Vinsmoke Niji",
+    "group": "Germa 66",
+    "pl": 72,
+    "effect": "\"เด็นจิบลู\": ความเร็ว +5 ถ้าถือ Sanji",
+    "img": "images/niji.png"
+  },
+  {
+    "id": "yonji",
+    "name": "Vinsmoke Yonji",
+    "wiki": "Vinsmoke Yonji",
+    "group": "Germa 66",
+    "pl": 70,
+    "effect": "\"วินช์กรีน\": พลังแกร่ง +4 ถ้าถือ Sanji",
+    "img": "images/yonji.png"
+  },
+  {
+    "id": "kinemon",
+    "name": "Kin'emon",
+    "wiki": "Kin'emon",
+    "group": "วาโนะคุนิ",
+    "pl": 68,
+    "effect": "\"ฟูกุฟูกุ\": เสื้อผ้าวิเศษ +4 ถ้าถือวาโนะ >=2",
+    "img": "images/kinemon.png"
+  },
+  {
+    "id": "franky",
+    "name": "Franky",
+    "wiki": "Franky",
+    "group": "หมวกฟาง",
+    "pl": 63,
+    "effect": "\"เจเนอรัลแฟรงกี้\": +8 ถ้าถือหมวกฟาง >=4",
+    "img": "images/franky.png"
+  },
+  {
+    "id": "brook",
+    "name": "Brook",
+    "wiki": "Brook",
+    "group": "หมวกฟาง",
+    "pl": 61,
+    "effect": "\"โยมิโยมิ\": หลบดาเมจ 1 ครั้ง กลับมายืนใหม่ได้",
+    "img": "images/brook.png"
+  },
+  {
+    "id": "robin",
+    "name": "Nico Robin",
+    "wiki": "Nico Robin",
+    "group": "หมวกฟาง",
+    "pl": 60,
+    "effect": "\"โพเนกลีฟ\": ดูพลังรวมทุกคนก่อน แล้ว +8 ให้ตัวเอง",
+    "img": "images/robin.png"
+  },
+  {
+    "id": "momonosuke",
+    "name": "Kozuki Momonosuke",
+    "wiki": "Kozuki Momonosuke",
+    "group": "วาโนะคุนิ",
+    "pl": 60,
+    "effect": "\"มังกรวาโนะ\": +10 ถ้าถือ Kozuki Oden",
+    "img": "images/momonosuke.png"
+  },
+  {
+    "id": "chopper",
+    "name": "Tony Tony Chopper",
+    "wiki": "Tony Tony Chopper",
+    "group": "หมวกฟาง",
+    "pl": 52,
+    "effect": "\"รัมเบิ้ล\": ฮีลพลัง 10 ให้การ์ดหมวกฟาง 1 ใบ",
+    "img": "images/chopper.png"
+  },
+  {
+    "id": "tashigi",
+    "name": "Tashigi",
+    "wiki": "Tashigi",
+    "group": "กองทัพเรือ",
+    "pl": 50,
+    "effect": "\"นักดาบสาว\": +5 ถ้าถือ Smoker",
+    "img": "images/tashigi.png"
+  },
+  {
+    "id": "buggy",
+    "name": "Buggy",
+    "wiki": "Buggy",
+    "group": "เจ็ดเทพโจรสลัด",
+    "pl": 50,
+    "effect": "\"สายมู\": ขโมยพลัง 10 จากผู้เล่นที่พลังสูงสุดตอนจบ",
+    "img": "images/buggy.png"
+  },
+  {
+    "id": "usopp",
+    "name": "Usopp",
+    "wiki": "Usopp",
+    "group": "หมวกฟาง",
+    "pl": 48,
+    "effect": "\"ราชาแห่งการโกหก\": หลอกคู่แข่งให้ผ่าน 1 ครั้ง",
+    "img": "images/usopp.png"
+  },
+  {
+    "id": "nami",
+    "name": "Nami",
+    "wiki": "Nami",
+    "group": "หมวกฟาง",
+    "pl": 45,
+    "effect": "\"โคโนโคโน\": โจรกรรม เก็บเพิ่ม 15 เงินตอนสรุป",
+    "img": "images/nami.png"
+  }
+]
